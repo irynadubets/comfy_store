@@ -1,9 +1,9 @@
 const FormInput = ({ label, name, type, defaultValue }) => {
   return (
     <div className="form-control">
-      <lavel className="label">
+      <label className="label">
         <span className="label-text">{label}</span>
-      </lavel>
+      </label>
       <input
         type={type}
         name={name}
